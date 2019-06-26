@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import BeersList from './components/beers-list/beers-list';
 import BeerDetails from './components/beer-details/beer-details';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"

@@ -4,11 +4,6 @@ import axios from 'axios';
 import { Link } from "react-router-dom";
 
 const StyledBeerItem = styled.div`
-  img {
-    max-width: 340px;
-    max-height: 380px;
-    padding: 0 0 10px 10px;
-  }
   padding-left: 10px;
   margin-bottom: 10px;
 `;
@@ -100,7 +95,6 @@ export default class BeersList extends Component {
             </StyledBeerItem>
           )}
         </div>
-        
       </div>
     )
   }
