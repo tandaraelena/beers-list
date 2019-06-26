@@ -11,9 +11,14 @@ class BeerDetails extends React.Component {
           <span>back</span>
         </Link>
         <h1>Beers details</h1>
-        <pre>
+        {/* <pre>
           {JSON.stringify(beer,null,2)}
-        </pre>
+        </pre> */}
+        {beer.name}
+        <img src={beer.image_url}/>
+        ABV: {beer.abv}
+        {beer.tagline}
+        {beer.description}
       </div>
     )
   }
