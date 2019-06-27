@@ -12,9 +12,6 @@ class BeerDetails extends React.Component {
             <span> {" < "} back</span>
           </Link>
           <h1 className="beer-name">{beer.name}</h1>
-          {/* <pre>
-          {JSON.stringify(beer,null,2)}
-        </pre> */}
           <img className="img" src={beer.image_url} />
           <div className="beer-info">
             <h2 className="abv">ABV: {beer.abv}</h2>
