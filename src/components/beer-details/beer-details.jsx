@@ -11,10 +11,10 @@ class BeerDetails extends React.Component {
           <Link className="back" to="/">
             <span> {" < "} back</span>
           </Link>
-          <h1 className="beer-name">{beer.name}</h1>
+          <h3 className="beer-name">{beer.name}</h3>
           <img className="img" src={beer.image_url} />
           <div className="beer-info">
-            <h2 className="abv">ABV: {beer.abv}</h2>
+            <h4 className="abv">ABV: {beer.abv}</h4>
             <p className="tagline">{beer.tagline}</p>
             <p>{beer.description}</p>
           </div>
